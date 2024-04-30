@@ -1,0 +1,17 @@
+<package>
+    <description brief="mars_gui">
+       DFKI Robot simulator GUI
+    </description>
+    <maintainer>Malte Langosz/malte.langosz@dfki.de</maintainer>
+
+
+    <depend package="simulation/lib_manager" />
+    <depend package="simulation/data_broker" />
+    <depend package="simulation/gui_collection/main_gui" />
+    <depend package="simulation/utils" />
+    <depend package="simulation/mars2/mars_interfaces" />
+    <depend package="opencv" />
+    <rosdep name="qt5" optional="1"/>
+    <rosdep name="qt4" optional="1"/>
+    <tags>needs_opt</tags>
+</package>
