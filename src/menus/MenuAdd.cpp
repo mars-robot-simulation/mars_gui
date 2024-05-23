@@ -420,9 +420,9 @@ namespace mars
             map["extend"]["x"] = 1.;
             map["extend"]["y"] = 1.;
             map["extend"]["z"] = 1.;
-            if(control->loadCenter && control->loadCenter->loadMesh)
+            if(interfaces::ControlCenter::loadCenter && interfaces::ControlCenter::loadCenter->loadMesh)
             {
-                std::vector<double> size = control->loadCenter->loadMesh->getMeshSize(mesh);
+                std::vector<double> size = interfaces::ControlCenter::loadCenter->loadMesh->getMeshSize(mesh);
                 map["extend"]["x"] = size[0];
                 map["extend"]["y"] = size[1];
                 map["extend"]["z"] = size[2];
