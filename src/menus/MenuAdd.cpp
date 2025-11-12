@@ -395,10 +395,14 @@ namespace mars
             map["name"] = name;
             map["physicmode"] = "sphere";
             map["visualType"] = "sphere";
+            map["filename"] = "PRIMITIVE";
             fprintf(stderr, "add with visual type\n");
-            map["extend"]["x"] = 0.5;
-            map["extend"]["y"] = 1.;
-            map["extend"]["z"] = 1.;
+            map["radius"] = 0.5;
+            /*
+              map["extend"]["x"] = 0.5;
+              map["extend"]["y"] = 1.;
+              map["extend"]["z"] = 1.;
+            */
             map["position"]["z"] = 0.5;
             map["movable"] = true;
             interfaces::NodeData node;
