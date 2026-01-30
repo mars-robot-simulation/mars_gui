@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.10)
 project(mars_gui VERSION 2.0.0 DESCRIPTION "This library is a GUI based in the main_gui for MARS.")
 
 
